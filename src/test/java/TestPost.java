@@ -18,7 +18,7 @@ public class TestPost {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some date"))
+                .body("dat", equalTo("some date"))
         ;
     }
 
